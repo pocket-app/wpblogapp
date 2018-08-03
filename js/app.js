@@ -17,7 +17,7 @@ angular.module('starter', ['ionic', 'ngStorage','ngCordova'])
     }
 
     var androidConfig = {
-      "senderID": "955383591472"
+      "senderID": "756271735842"
     };
 
     $cordovaPush.register(androidConfig).then(function(result) {

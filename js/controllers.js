@@ -13,7 +13,7 @@ angular.module('starter')
 	      data.token = googDevToken;
 	      $http({
 	          method  : 'POST',
-	          url     : 'http://newsportal.lightsandshapes.in/pnfw/register/',
+	          url     : 'http://thinkingmindpro.com/pnfw/register/',
 	          data    : 'os=Android&token='+googDevToken,
 	          headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
 	         }).success(function(){
